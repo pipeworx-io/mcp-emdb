@@ -2,12 +2,14 @@
 
 EMDB (EBI Electron Microscopy Data Bank) MCP — keyless.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 836+ live data sources.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1394+ live data sources.
 
 ## Tools
 
 | Tool | Description |
 |------|-------------|
+| `search_maps` | Search the EBI Electron Microscopy Data Bank (EMDB) for 3D cryo-EM / electron-tomography density maps by free-text keyword (e.g. "ribosome", "spike protein", "apoptosis"). Returns matching maps with EMDB id, title, resolution (Angstrom), and structure-determination method. Keyless. Complements PDB/AlphaFold (which hold atomic/experimental structures). |
+| `get_map` | Get a single EMDB entry by its EMDB id (e.g. "EMD-1080"). Returns a trimmed record: title, sample, structure-determination method, resolution (Angstrom), and release date. EMDB holds 3D electron-microscopy density maps of proteins, complexes, and viruses. Keyless. |
 
 ## Quick Start
 
@@ -23,7 +25,7 @@ Add to your MCP client (Claude Desktop, Cursor, Windsurf, etc.):
 }
 ```
 
-Or connect to the full Pipeworx gateway for access to all 836+ data sources:
+Or connect to the full Pipeworx gateway for access to all 1394+ data sources:
 
 ```json
 {
@@ -47,7 +49,7 @@ The gateway picks the right tool and fills the arguments automatically.
 
 ## More
 
-- [All tools and guides](https://github.com/pipeworx-io/examples)
+- [Docs and guides](https://pipeworx.io/docs)
 - [pipeworx.io](https://pipeworx.io)
 
 ## License

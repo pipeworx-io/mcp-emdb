@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-emdb",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "EMDB (EBI Electron Microscopy Data Bank) MCP — keyless.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "emdb",
     "gatewaySlug": "emdb",
-    "sourceHash": "v1-fa2b4f2ec0e932ade26b9ad2f7a463bad95c2433bc9790564878d74ff8ca0d06",
-    "sourceCommit": "06a6b405041923c5ddf2ac2436e7c049e635f464"
+    "sourceHash": "v1-feb6df4c3c1635119f656c73d0445984f510849a05f9f1cd55be3a46f8440084",
+    "sourceCommit": "e707a4bb6209f432984c0a83bf64b3138130db89"
   }
 }
